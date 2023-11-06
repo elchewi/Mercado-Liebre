@@ -3,6 +3,7 @@ const app = express();
 const path = require('path');
 
 app.use(express.static('public'));
+app.use(express.static(__dirname + '/node_modules/bootstrap/dist'));
 
 app.listen(3030, () => console.log('Servidor corriendo en http://localhost:3030'));
 
