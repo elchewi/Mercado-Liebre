@@ -2,120 +2,98 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto', sans-serif; */
+     font-family: 'Roboto', sans-serif; 
 }
+
 body {
     min-height: 100vh;
     background-size: cover;
     background-position:center ;
 }
-/* dropdown */
 
-.navbar a {
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    width: 150px; /* Puedes ajustar este valor según tu preferencia */
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-/* aca termina el dropdown de arriba */
-
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar {
-    display: flex;
-}
-
-.navbar-left {
-    justify-content: flex-start;
-}
-
-.navbar-right {
-    justify-content: flex-end;
-}
-
-.header-top {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    margin-right: 20px; /* Puedes ajustar el valor según sea necesario */
-}
-
-.content {
-    flex-grow: 1; /* Esto permite que el texto ocupe todo el espacio disponible */
-    text-align: right;
-    margin-right: 2%;
-    font-size:  20px;
-}
-
-
-.header{
+.header {
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
+    padding: 20px 100px;
     background: #EAC926;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-/* .navbar a {
+
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
     position: relative;
     font-size: 18px;
-    color:#fff;
+    color: #fff;
     font-weight: 500;
-    text-decoration: none;
+    text-decoration:none;
     margin-left: 40px;
-} */
+} 
 
-/* .navbar a::before {
+.navbar a::before{
     content: '';
     position: absolute;
     top: 100%;
     left: 0;
-    width: 0;
+    width: 100%;
     height: 2px;
-    background: #EAC926;
+    background: #fff;
     transition: .3s;
 }
 
 .navbar a:hover::before {
     width: 100%;
-} */
+}
 
-/* .Logo {
-    font-size: 32px;
-    color: #EAC926;
-    text-decoration: none;
-    font-weight: 700;
-} */
+
+/* .dropdown {
+    min-width: 130px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;  ------------------ lo dejo para intentar hacer un dropdown
+    gap: 12px;
+    position: absolute;
+    top: 40px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 25px 50px -12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 60px;
+}
+
+.dropdown a {
+    font-size: 14px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+ */
+
+
+
+
 .images{
     height: 200px; 
     width: 200px; 
 }
+
 p{
     font-size: 12px;
 }
@@ -135,4 +113,4 @@ footer{
 }
 .iconCard{
     font-size: 2em;
-}
+} 
