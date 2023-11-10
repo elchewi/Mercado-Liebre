@@ -1,116 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: 'Roboto', sans-serif; 
+.header{
+    background-color: #EAC926;
 }
 
-body {
-    min-height: 100vh;
-    background-size: cover;
-    background-position:center ;
-}
-
-.header {
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: #EAC926;
+.container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+    padding: 10px;
 }
 
-.logo{
-    font-size: 32px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.navbar a {
-    position: relative;
-    font-size: 18px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration:none;
-    margin-left: 40px;
-} 
-
-.navbar a::before{
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #fff;
-    transition: .3s;
-}
-
-.navbar a:hover::before {
-    width: 100%;
-}
-
-
-/* .dropdown {
-    min-width: 130px;
-    padding: 15px 10px;
-    box-sizing: border-box;
+.navbar {
     display: flex;
-    flex-direction: column;  ------------------ lo dejo para intentar hacer un dropdown
-    gap: 12px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333; /* Color de texto principal */
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
     position: absolute;
-    top: 40px;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 25px 50px -12px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.2s ease-in-out;
+    background-color: #fff; /* Color de fondo del dropdown */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-li:hover .dropdown {
-    opacity: 1;
-    visibility: visible;
-    top: 60px;
+.dropdown-content ul {
+    list-style: none;
+    padding: 0;
 }
 
-.dropdown a {
-    font-size: 14px;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 10px;
-}
- */
-
-
-
-
-.images{
-    height: 200px; 
-    width: 200px; 
+.sub-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333; /* Color de texto principal */
 }
 
-p{
-    font-size: 12px;
+/* Mostrar dropdown al pasar el ratón */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-
-.precios{
-    font-size: 18px;
-}
-
-.titulares{
-    font-size: 24px;
-}
-.navegador{
-    width: 200px;
-}
-footer{
-    text-align: center;
-}
-.iconCard{
-    font-size: 2em;
-} 
