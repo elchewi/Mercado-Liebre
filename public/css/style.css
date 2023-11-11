@@ -3,7 +3,7 @@
 }
 
 .container {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     padding: 10px;
 }
@@ -47,4 +47,16 @@
 /* Mostrar dropdown al pasar el ratón */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.images {
+    max-width: 100%;
+    height: auto;
+    
+}
+main{
+   background-color: #ebebeb; 
+}
+article{
+    background-color: #fff;
+    width: 30%;
 }
