@@ -1,15 +1,54 @@
+main{
+    text-align: center;
+}
+h3{
+    margin: 0 !important;
+}
+.pieDePagina{
+    text-align: center;
+    margin-top: 50px;
+}
+footer section p{
+    margin: 0 !important;
+}
+.iconCard{
+    font-size: 2em;
+}
 .ultimaVisita {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimaVisita article {
+    margin: 10px;
 }
 .seccionOfertas{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .images {
     width: 200px;
     height: 200px;
+    border-radius: 5%;
 }
 article{
-    margin-left: 20px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(224, 223, 223);
+    box-shadow: 11px 9px 6px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 11px 9px 6px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 9px 6px -3px rgba(0,0,0,0.75);
+    border-radius: 5%;
+
+}
+
+
+article:hover{
+    cursor: pointer;
 }
 
 
