@@ -1,71 +1,17 @@
-
-.header{
-    background-color: #EAC926;
-}
-
-.container {
-    display:flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.navbar {
+.ultimaVisita {
     display: flex;
 }
-
-.nav-link {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;  
-    font-weight: bold;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;  
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sub-link {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #333; 
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.seccionOfertas{
+    display: flex;
 }
 .images {
     width: 200px;
     height: 200px;
-    height: auto;
-    
 }
-main{
-    
-    justify-content: center;
-    
+article{
+    margin-left: 20px;
 }
 
-article{
-    background-color: #fff;
-    width: 30%;
-}
-/* de aca para arriba es mi codigo */
 
 body {
     margin: 0;
