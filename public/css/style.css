@@ -1,3 +1,159 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.header {
+    background-color: #EAC926;
+    padding: 5px;
+}
+
+.header1 {
+    display: flex;
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 480px) {
+    .header1 {
+      flex-direction: column;
+    }
+  }
+
+.header2{
+    display: flex;
+    grid-gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .header2 {
+      flex-direction: column;
+    }
+  }
+
+.header img {
+    width: 300px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(0,0,0,0);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border-width: 1.5px;
+    border-radius: 2px;
+    background-color: #fff;
+    border-style: solid;  
+}
+
+.inputContainer > input{
+    border: none;
+    height: 20px;
+    width: 500px;
+    padding: 10px 60px 10px 15px;
+    
+}
+
+@media screen and (max-width: 480px) {
+    .inputContainer > input {
+      width: 100%;
+    }
+  }
+
+.inputContainer > button {
+    border: none;
+    display: block;
+    cursor: pointer;
+    height: 35px;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+.fa-magnifying-glass {
+    font-size: 30px;
+}
+
+.desktopHidden {
+    display: none;
+}
+
+.btn-menu {
+    display: flex;
+    background-color: #1259c3;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.btnInfo {
+    display: flex;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+    .desktopHidden {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    nav {
+        width: 100%;
+    }
+  }
+
+.list1 {
+    display: flex;
+    grid-gap: 30px;
+    font-size: 12px;
+}
+
+.list2{
+    display: flex;
+    grid-gap: 30px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+    .list1, .list2 {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: flex-start;
+        width: 100%;
+    }
+} 
+
+
+
+
+
+
+
+
+
 .header{
     background-color: #EAC926;
 }
