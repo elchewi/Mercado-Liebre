@@ -1,3 +1,21 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 12px;
+}
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+strong{
+    font-size: 16px;
+}
 main{
     text-align: center;
 }
@@ -54,7 +72,7 @@ article:hover{
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #ebebeb; 
 
 }
