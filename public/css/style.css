@@ -1,5 +1,16 @@
 *{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb; 
+    border: 1px solid red;
+    width: 100%;
+
 }
 p{
     font-size: 12px;
@@ -20,14 +31,14 @@ main{
     text-align: center;
 }
 h3{
-    margin: 0 !important;
+    margin: 0;
 }
 .pieDePagina{
     text-align: center;
     margin-top: 50px;
 }
 footer section p{
-    margin: 0 !important;
+    margin: 0 ;
 }
 .iconCard{
     font-size: 2em;
@@ -70,12 +81,6 @@ article:hover{
 }
 
 
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #ebebeb; 
-
-}
 
 a{
     text-decoration: none;
@@ -90,6 +95,8 @@ ul{
     background-color: #EAC926;
     padding: 5px;
     box-sizing: border-box;
+    height: auto;
+    width: auto;
 }
 
 .header1 {
@@ -98,11 +105,11 @@ ul{
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .header1 {
       flex-direction: column;
     }
-  }
+  } */
 
 .header2{
     display: flex;
@@ -111,11 +118,11 @@ ul{
     align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .header2 {
       flex-direction: column;
     }
-  }
+  } */
 
 .header img {
     width: 300px;
@@ -141,11 +148,11 @@ ul{
     
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .inputContainer > input {
-      width: 100%;
+      width: auto;
     }
-  }
+  } */
 
 .inputContainer > button {
     border: none;
@@ -183,7 +190,7 @@ ul{
     font-size: 12px;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .desktopHidden {
       display: flex;
       width: 100%;
@@ -193,7 +200,7 @@ ul{
     nav {
         width: 100%;
     }
-  }
+  } */
 
 .list1 {
     display: flex;
@@ -207,7 +214,7 @@ ul{
     font-size: 12px;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .list1, .list2 {
         flex-direction: column;
         margin: 0;
@@ -215,4 +222,4 @@ ul{
         align-items: flex-start;
         width: 100%;
     }
-} 
+}  */
