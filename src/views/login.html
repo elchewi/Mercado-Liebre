@@ -9,16 +9,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <title>Login</title>
 </head>
-<!-- cambiar los class de header y logo-search para poder terminar de estilizar el login  -->
-<!-- terminar de estilizar header-login y logo-search-login -->
+<!-- preguntar con los profesores como sacar el espacio que esta abajo del footer -->
+<!-- arreglar el tamaño del logo que esta dentor de la <a></a> -->
 <body>
-    <header class="header-login">
-        <a class="logo-button" href="/">
-            <div class="logo-search-login" >
-                <img src="static/img/logo-mercado-liebre.svg" alt="logo" />
+    <header class="header">
+        <div class="header-content">
+          <div class="header_first">
+            <div class="logo-search">
+              <a  href="/"><img src="static/img/logo-mercado-liebre.svg" alt="logo" width="250" /></a>
+              <div class="search">
+                <input type="text" placeholder="Busca todo lo que quieras y más..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
             </div>
-        </a>
-    </header>
+            <a href="#"><i class="fa-solid fa-hand-holding-heart"></i> Compra en cuotas y
+              sin tarjeta de credito</a>
+          </div>
+          <nav class="menu">
+            <ul class="menu_items">
+              <ul class="links">
+                <li class="menu_item"><a href="#">Ofertas</a></li>
+                <li class="menu_item"><a href="#">Tienda Oficial</a></li>
+                <li class="menu_item"><a href="#">Vender</a></li>
+                <li class="menu_item"><a href="#">Ayuda</a></li>
+              </ul>
+              <ul class="acces">
+                <li class="menu_item">
+                  <a href="/register">Crea tu cuenta <i class="fa-solid fa-id-card"></i></a>
+                </li>
+                <li class="menu_item">
+                  <a href="/login">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a>
+                </li>
+                <li class="menu_item">
+                  <a href="#">Mis compras <i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+              </ul>
+            </ul>
+            <div class="burguer-menu">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </nav>
+        </div>
+      </header>
     <main>
         <div class="login-page">
             <div class="form">
@@ -26,7 +58,7 @@
                     <input type="text" name="user" id="user" placeholder="Usuario" />
                     <input type="password" name="password" id="password" placeholder="Contraseña" />
                     <button>login</button>
-                    <p class="message">Not registered? <a href="/register">Create an account</a></p>
+                    <p class="message">No estas registrado? <a href="/register">Create una cuenta</a></p>
                 </form>
             </div>
         </div>

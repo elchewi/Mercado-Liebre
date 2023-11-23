@@ -15,7 +15,7 @@
   font-family: Roboto;
 }
 
-/* HEADER */
+/* ----------------------------------HEADER----------------------*/
 .header {
   background-color: var(--amarillo);
 }
@@ -79,7 +79,7 @@
   width: 100%;
 }
 
-/*MENU*/
+/*-----------------------------------MENU--------------------------------*/
 
 .menu{
   padding: 16px;
@@ -116,7 +116,7 @@
   font-size: 24px;
 }
 
-/* MAIN */
+/* -----------------------------------MAIN-------------------------------- */
 .main{
   padding: 16px;
   background-color: var(--gris-claro);
@@ -198,7 +198,7 @@
   color: var(--verde);
 }
 
-/* FOOTER */
+/* --------------------------------------FOOTER--------------------------- */
 .footer{
   padding: 16px;
   background-color: var(--blanco);
