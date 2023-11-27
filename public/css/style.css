@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto;
+  /* background-color: #EAC926; */
 }
 
 /* ----------------------------------HEADER----------------------*/
@@ -129,6 +130,10 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.card_product:hover{
+  /* quiero hacer que todo el card haga un efecto cuando ponga el cursor arriba o cuando haga click, depende con cual quede mejor */
 }
 
 .card-container {
@@ -298,4 +303,11 @@
     /* height: 100%; */
     margin-bottom: 16px;
   }
+}
+
+.card_product:hover i {
+  rotate: -90deg;
+  transform: translateY(20px);
+  transition: rotate 0.5s ease;
+  /* Tambien intentar hacer que el camioncito se mueva desde el lado inferior izquierdo hacia la derecha rodando*/
 }
