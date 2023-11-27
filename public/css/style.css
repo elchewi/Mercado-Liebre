@@ -134,6 +134,7 @@
 
 .card_product:hover{
   /* quiero hacer que todo el card haga un efecto cuando ponga el cursor arriba o cuando haga click, depende con cual quede mejor */
+  font-size: 0%;
 }
 
 .card-container {
