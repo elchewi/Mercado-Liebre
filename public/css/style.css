@@ -132,10 +132,6 @@
   gap: 16px;
 }
 
-.card_product:hover{
-  /* quiero hacer que todo el card haga un efecto cuando ponga el cursor arriba o cuando haga click, depende con cual quede mejor */
-  font-size: 0%;
-}
 
 .card-container {
   display: flex;
@@ -161,6 +157,22 @@
   min-width: 311px;
   max-width: 311px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card_product:hover{
+  /* quiero hacer que todo el card haga un efecto cuando ponga el cursor arriba o cuando haga click, depende con cual quede mejor */
+  box-shadow: 0 0 10px;
+}
+
+.card_product i {
+  transition-timing-function: cubic-bezier(x1 y1, x2 y2);
+}
+
+.card_product:hover i {
+  rotate: -90deg;
+  transform: translateY(20px);
+  transition: rotate 0.5s ease-in-out;
+  /* Tambien intentar hacer que el camioncito se mueva desde el lado inferior izquierdo hacia la derecha rodando*/
 }
 
 .description_card {
@@ -304,11 +316,4 @@
     /* height: 100%; */
     margin-bottom: 16px;
   }
-}
-
-.card_product:hover i {
-  rotate: -90deg;
-  transform: translateY(20px);
-  transition: rotate 0.5s ease;
-  /* Tambien intentar hacer que el camioncito se mueva desde el lado inferior izquierdo hacia la derecha rodando*/
 }
